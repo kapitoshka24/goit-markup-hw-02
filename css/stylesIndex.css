@@ -1,0 +1,147 @@
+:root {
+  --bg-color-black: #2f303a;
+  --blue: #2196f3;
+  --black: #212121;
+  --grey: #757575;
+  --white: #ffffff;
+  --our-team-bg: #f5f4fa;
+  --contacts-footer: rgba(255, 255, 255, 0.6);
+  --inactive-bg-button: #f5f4fa;
+}
+
+.logo-black {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  text-decoration: none;
+}
+.web {
+  color: var(--blue);
+}
+.nav-item {
+  color: var(--black);
+  text-decoration: none;
+}
+.nav-item:hover {
+  color: var(--blue);
+}
+.nav-item,
+.header-contacts {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-contacts {
+  color: var(--grey);
+  text-decoration: none;
+}
+.header-contacts:hover {
+  color: var(--blue);
+}
+.main-title {
+  background-color: var(--bg-color-black);
+}
+.main-title-h1 {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.main-title-button {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background: var(--blue);
+}
+.advantages-header {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.advantages-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+.our-team {
+  background-color: var(--our-team-bg);
+}
+.our-team-title,
+.about-us {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+.our-team-member {
+  background-color: var(--white);
+}
+
+.team-member-name,
+.team-member-specialty {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-member-name {
+  font-weight: 500;
+  color: var(--black);
+}
+.team-member-specialty {
+  font-weight: 400;
+  color: var(--grey);
+}
+.footer-contacts {
+  background-color: var(--bg-color-black);
+}
+.logo-white {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  text-decoration: none;
+}
+.street-name {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.footer-contacts-item {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contacts-footer);
+  text-decoration: none;
+}
