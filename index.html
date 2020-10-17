@@ -7,7 +7,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/stylesIndex.css" />
+    <link rel="stylesheet" href="./css/styles-index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -16,16 +16,20 @@
   </head>
   <body>
     <header>
-      <a class="logo-black" href="/"><span class="web">Web</span>Studio</a>
+      <a class="logo-black" href="./index.html"
+        ><span class="web">Web</span>Studio</a
+      >
       <nav>
-        <ul>
-          <li><a class="nav-item" href="./index.html">Студия</a></li>
+        <ul class="site-nav">
+          <li>
+            <a class="nav-item nav-item-active" href="./index.html">Студия</a>
+          </li>
           <li><a class="nav-item" href="./portfolio.html">Портфолио</a></li>
           <li><a class="nav-item" href="#contacts">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="contacts">
         <li>
           <a
             class="header-contacts"
@@ -54,7 +58,7 @@
       </section>
 
       <section>
-        <ul>
+        <ul class="advantages">
           <li class="advantages-item">
             <h2 class="advantages-header">внимание к деталям</h2>
             <p class="advantages-text">
@@ -87,7 +91,7 @@
       </section>
       <section>
         <h2 class="about-us">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="about-us-pics">
           <li>
             <img
               src="./images/studio/PC.png"
@@ -113,7 +117,7 @@
       </section>
       <section class="our-team">
         <h2 class="our-team-title">Наша команда</h2>
-        <ul>
+        <ul class="our-team-blocks">
           <li class="our-team-member">
             <img
               src="./images/studio/IgorDemianenko.png"
@@ -158,7 +162,7 @@
       <a class="logo-white" href="/"><span class="web">Web</span>Studio</a>
       <address class="street-name">г. Киев, пр-т Леси Украинки, 26</address>
       <address>
-        <ul>
+        <ul class="contacts">
           <li>
             <a
               class="footer-contacts-item"
