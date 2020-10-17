@@ -29,11 +29,15 @@
   letter-spacing: 0.06em;
   color: var(--black);
 }
-.products-type {
+.product-type {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--grey);
+}
+.sorting,
+.sort-items {
+  list-style-type: none;
 }

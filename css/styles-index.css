@@ -28,6 +28,9 @@
 .nav-item:hover {
   color: var(--blue);
 }
+.nav-item-active {
+  color: var(--blue);
+}
 .nav-item,
 .header-contacts {
   font-family: Roboto;
@@ -135,6 +138,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white);
+  font-style: normal;
 }
 .footer-contacts-item {
   font-family: Roboto;
@@ -144,4 +148,12 @@
   letter-spacing: 0.03em;
   color: var(--contacts-footer);
   text-decoration: none;
+  font-style: normal;
+}
+.site-nav,
+.contacts,
+.advantages,
+.about-us-pics,
+.our-team-blocks {
+  list-style-type: none;
 }
