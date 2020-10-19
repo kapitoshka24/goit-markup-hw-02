@@ -7,7 +7,7 @@
   --contacts-footer: rgba(255, 255, 255, 0.6);
   --inactive-bg-button: #f5f4fa;
 }
-.sort-button {
+.btn {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -17,7 +17,7 @@
   color: var(--black);
   background-color: var(--inactive-bg-button);
 }
-.sort-button:hover {
+.btn:hover {
   color: var(--white);
   background-color: var(--blue);
 }
