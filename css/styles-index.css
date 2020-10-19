@@ -150,10 +150,6 @@
   text-decoration: none;
   font-style: normal;
 }
-.site-nav,
-.contacts,
-.advantages,
-.about-us-pics,
-.our-team-blocks {
+.list {
   list-style-type: none;
 }
