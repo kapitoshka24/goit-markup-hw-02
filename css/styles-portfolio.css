@@ -7,7 +7,7 @@
   --contacts-footer: rgba(255, 255, 255, 0.6);
   --inactive-bg-button: #f5f4fa;
 }
-.btn {
+.services .btn {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -17,11 +17,11 @@
   color: var(--black);
   background-color: var(--inactive-bg-button);
 }
-.btn:hover {
+.services .btn:hover {
   color: var(--white);
   background-color: var(--blue);
 }
-.product-name {
+.products .name {
   font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
@@ -29,7 +29,7 @@
   letter-spacing: 0.06em;
   color: var(--black);
 }
-.product-type {
+.products .type {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
